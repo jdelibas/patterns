@@ -1,0 +1,27 @@
+{
+  "name": "patterns",
+  "version": "1.0.0",
+  "description": "### links",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --public-url /patterns/",
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdelibas/patterns.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdelibas/patterns/issues"
+  },
+  "homepage": "https://github.com/jdelibas/patterns#readme",
+  "dependencies": {
+    "ava": "4.1.0",
+    "parcel": "2.4.1"
+  }
+}
